@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "pg:schema": "psql -d forum_api -f db/schema/schema.sql -a",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
