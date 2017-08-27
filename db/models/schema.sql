@@ -1,7 +1,7 @@
 drop table if exists users cascade;
 drop table if extsts followed_users cascade;
 drop table if extsts followed_threads cascade;
-drop table if extsts followed_threads cascade;
+drop table if extsts followed_forums cascade;
 drop table if extsts forums cascade;
 drop table if extsts threads cascade;
 drop table if extsts posts cascade;
